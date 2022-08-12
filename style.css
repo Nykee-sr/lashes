@@ -86,7 +86,7 @@ body {
   display: inline-block;
   text-align: right;
   width: 100%;
-  font-size: 120%;
+  font-size: 130%;
 }
 .bookingbtn {
   margin-top: 1em;
@@ -236,34 +236,25 @@ li {
   margin-left: 1em;
   margin-right: 1em;
 }
+@media (min-width: 992px) {
+  #menu-bar {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
 .menu-list {
   float: right;
+  margin-right: 2em;
 }
-.main {
-  text-align: center;
-  font-family: 'Noto Serif Display', serif;
-}
+
 .menu-btn {
   font-size: 1.2em;
 }
 
-.option {
-  text-align: right;
-}
 .right {
   float: right;
 }
-.site-tag {
-  padding-top: 0.3em;
-  padding-left: 0.3em;
-  font-size: 1.7em;
-  font-weight: bold;
-  color: aliceblue;
-  font-style: italic;
-}
-.shop-btn {
-  padding-right: 5px;
-}
+
 .smedia-icon {
   display: block;
   justify-content: center;
@@ -271,10 +262,9 @@ li {
   border-radius: 30%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 10%;
+  max-width: 25%;
   height: auto;
   float: left;
-  max-width: 25%;
 }
 
 #service {
