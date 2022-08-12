@@ -146,8 +146,8 @@ footer p {
 .gallery-gif {
   background-image: url('gallery.gif');
 }
-#headdiv-menu {
-  margin-bottom: 2.5em;
+#head {
+  max-width: 100%;
 }
 .hide-btn {
   border: transparent;
@@ -170,13 +170,13 @@ footer p {
 @media (min-width: 768px) {
   .head-pic {
     min-height: 750px;
-    background-size: 90%;
+    background-size: 100%;
   }
 }
 @media (min-width: 990.98px) {
   .head-pic {
     min-height: 800px;
-    background-size: 75%;
+    background-size: 80%;
   }
 }
 .headers {
@@ -221,18 +221,14 @@ li {
     font-size: 110%;
   }
 }
-#list-menu {
-  color: aliceblue;
-  width: 100%;
-}
-@media (min-width: 990.98px) {
-  #main {
-    font-size: 125%;
-  }
+#main {
 }
 #menu-bar {
   margin-left: 1em;
   margin-right: 1em;
+}
+.menu-list {
+  float: right;
 }
 .main {
   text-align: center;
