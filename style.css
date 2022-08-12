@@ -50,18 +50,27 @@ a:active {
 }
 @media (min-width: 576px) {
   .background-pic {
-    background-size: 120%;
+    background-size: 110%;
   }
 }
 @media (min-width: 768px) {
   .background-pic {
     min-height: 650px;
-    background-size: 120%;
+    background-size: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 @media (min-width: 990.98px) {
   .background-pic {
     min-height: 800px;
+    background-size: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  .background-pic {
+    min-height: 825px;
+    background-size: 85%;
   }
 }
 body {
