@@ -1,0 +1,352 @@
+a {
+  font-family: 'Didact Gothic', sans-serif;
+  color: aliceblue;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.address {
+  text-align: center;
+  margin-top: 7.5em;
+  background-color: rgb(46, 45, 45);
+  color: aliceblue;
+
+  font-size: 1.5em;
+  font-weight: bold;
+  opacity: 0%;
+}
+.appointment {
+  text-decoration: underline;
+  font-family: serif;
+  font-size: 1.5rem;
+}
+
+#aftercare {
+  display: none;
+  color: aliceblue;
+  text-align: center;
+}
+.aftercare-pic {
+  background-image: url('aftercare.png');
+}
+.background-pic {
+  height: 475px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  max-width: 100%;
+}
+@media (min-width: 576px) {
+  .background-pic {
+    background-size: 120%;
+  }
+}
+@media (min-width: 768px) {
+  .background-pic {
+    min-height: 650px;
+    background-size: 120%;
+  }
+}
+@media (min-width: 990.98px) {
+  .background-pic {
+    min-height: 800px;
+  }
+}
+body {
+  background-color: black;
+  max-width: auto;
+  font-family: 'Noto Serif Display', serif;
+  background-repeat: no-repeat;
+}
+.bold {
+  font-weight: bold;
+}
+#book-now-btn {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  font-size: 120%;
+}
+.bookingbtn {
+  margin-top: 1em;
+}
+#bookbtn {
+  border-radius: 40px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 1.2em;
+  margin-top: 1.5em;
+}
+
+.bottom-space {
+  margin-bottom: 2em;
+}
+.caption {
+  margin-top: 1.3em;
+  margin-bottom: 0.8em;
+  font-family: 'Didact Gothic', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin: 0;
+}
+.contacts {
+  text-align: center;
+  text-decoration: underline;
+  font-family: serif;
+  font-weight: 300;
+}
+.esignup {
+  align-content: center;
+  margin-top: 0.75em;
+}
+.emphasized {
+  font-family: 'Didact Gothic', sans-serif;
+  font-style: italic;
+}
+footer {
+  padding-top: 7em;
+  font-family: 'Noto Serif Display', serif;
+  display: block;
+  color: aliceblue;
+  margin-bottom: 3em;
+}
+@media (min-width: 768px) {
+  footer {
+    font-size: 120%;
+  }
+}
+@media (min-width: 990.98px) {
+  footer {
+    font-size: 150%;
+  }
+}
+footer p {
+  font-family: 'Didact Gothic', sans-serif;
+  color: aliceblue;
+}
+.foot-extra-space {
+  margin-bottom: 2em;
+}
+#gallery {
+  display: none;
+}
+.gallery-gif {
+  background-image: url('gallery.gif');
+}
+#headdiv-menu {
+  margin-bottom: 2.5em;
+}
+.hide-btn {
+  border: transparent;
+  background-color: transparent;
+}
+.head-pic {
+  background-image: url('finishedlogo.png');
+  min-height: 650px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 165%;
+  max-width: 100%;
+}
+@media (min-width: 576px) {
+  .head-pic {
+    background-size: 110%;
+  }
+}
+@media (min-width: 768px) {
+  .head-pic {
+    min-height: 750px;
+    background-size: 90%;
+  }
+}
+@media (min-width: 990.98px) {
+  .head-pic {
+    min-height: 800px;
+    background-size: 75%;
+  }
+}
+.headers {
+  margin-top: 0em;
+  margin-bottom: 0.8em;
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+@media (min-width: 768px) {
+  .headers {
+    margin-top: 0.5em;
+  }
+}
+.header {
+  font-family: 'Noto Serif Display', serif;
+  font-weight: 900;
+}
+img {
+  border-radius: 2%;
+  width: 90%;
+}
+.instruction {
+  margin-top: 1em;
+}
+label {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.lash-title {
+  font-size: 2em;
+}
+.left {
+  float: left;
+}
+li {
+  font-size: 115%;
+}
+@media (min-width: 990.98px) {
+  li {
+    font-size: 110%;
+  }
+}
+#list-menu {
+  color: aliceblue;
+  width: 100%;
+}
+@media (min-width: 990.98px) {
+  #main {
+    font-size: 125%;
+  }
+}
+#menu-bar {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.main {
+  text-align: center;
+  font-family: 'Noto Serif Display', serif;
+}
+.menu-btn {
+  font-size: 1.2em;
+}
+
+.option {
+  text-align: right;
+}
+.right {
+  float: right;
+}
+.site-tag {
+  padding-top: 0.3em;
+  padding-left: 0.3em;
+  font-size: 1.7em;
+  font-weight: bold;
+  color: aliceblue;
+  font-style: italic;
+}
+.shop-btn {
+  padding-right: 5px;
+}
+.smedia-icon {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 10%;
+  height: auto;
+  float: left;
+  max-width: 25%;
+}
+
+#service {
+  display: block;
+  color: aliceblue;
+  margin-top: 0em;
+  text-align: center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #service {
+    font-size: 110%;
+  }
+}
+@media (min-width: 990.98px) {
+  #service {
+    font-size: 125%;
+  }
+}
+#service p {
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+@media (min-width: 768px) {
+  #service p {
+    margin-bottom: 2em;
+    margin-left: 7em;
+    margin-right: 7em;
+  }
+}
+@media (min-width: 990.98px) {
+  #service p {
+    margin-left: 12em;
+    margin-right: 12em;
+  }
+}
+.service {
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  max-width: 100%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+@media (min-width: 768px) {
+  .service {
+    height: 550px;
+  }
+}
+@media (min-width: 991.98px) {
+  .service {
+    height: 650px;
+    background-size: 50%;
+  }
+}
+.servicepic-classic {
+  background-image: url('gallery7.jpg');
+}
+.servicepic-volume {
+  background-image: url('volume.jpg');
+}
+.servicepic-wispyhybrid {
+  background-image: url('wispyhybrid.jpg');
+}
+#shop {
+  display: none;
+}
+.section-top {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.title-menu {
+  padding-top: 1.5em;
+  font-size: 1.7em;
+  float: left;
+  font-weight: bold;
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Cinzel:wght@600&family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="lash.js" defer></script>
+
+    <title>The Lash Bookings</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="" id="menu-bar">
+        <nav class="navbar navbar-expand-xlg navbar-dark bg-black">
+          <div class="container-fluid">
+            <a class="navbar-brand lash-title" href="#" onclick="gohome()"
+              >LASH</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDarkDropdown"
+              aria-controls="navbarNavDarkDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="" id="book-now-btn">
+              <a href="https:\/\/thelashbookings.simplybook.me"> Book Now </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav right">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle menu-btn"
+                    href="#"
+                    id="navbarDarkDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  </a>
+                  <ul
+                    class="dropdown-menu-dark"
+                    aria-labelledby="navbarDarkDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#" onclick="galleryPage()"
+                        >Gallery</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#" onclick="servicePage()"
+                        >Services</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        onclick="aftercarePage()"
+                        >Aftercare</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#" onclick="shopPage()"
+                        >Shop</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/lash_thebrand/">
+                        <img
+                          src="insta-icon-black.jpg"
+                          alt=""
+                          class="smedia-icon"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="" id="head">
+        <div class="head-pic"></div>
+      </div>
+    </div>
+    <!-- services -->
+    <div id="service" class="">
+      <h1 class="headers emphasized bold section-top">Services</h1>
+
+      <div class="">
+        <div class="servicepic-classic service"></div>
+        <h3 class="headers">Classic</h3>
+        <p>
+          Individual eyelash extensions applied to each individual natural lash
+          to create fuller, thicker looking lashes. Great for those who have
+          full natural lashes. All lash services may take up to 4 hours
+          depending on fullness of natural lashes.
+        </p>
+      </div>
+      <div class="">
+        <div class="servicepic-wispyhybrid service"></div>
+        <h3 class="headers">Hybrid</h3>
+        <p>
+          A 50/50 mix of classic and volume eyelash extensions applied to the
+          natural lash to create a natural glam look. Want the best of both
+          worlds or not sure if a classic or volume set is right for you? The
+          Hybrid set is perfect! Great for those with full or sparse natural
+          lashes. All lash services may take up to 4 hours depending on fullness
+          of natural lashes.
+        </p>
+      </div>
+      <div class="">
+        <div class="servicepic-volume service"></div>
+        <h3 class="headers">Volume</h3>
+        <p>
+          Light and fluffy volume eyelash extensions applied to the natural lash
+          to create the ultimate voluminous look. Love a dramatic look or have a
+          damaged lash line? The Volume set will disguise any imperfections to
+          the lash line by filling lash gaps and will give you the perfect
+          amount of glamour and drama. Great for those with thin or sparse
+          natural lashes. All lash services may take up to 4 hours depending on
+          fullness of natural lashes.
+        </p>
+      </div>
+    </div>
+
+    <!-- aftercare -->
+    <div id="aftercare" class="">
+      <div class="">
+        <h1 class="emphasized bottom-space">Aftercare</h1>
+      </div>
+      <div class="section">
+        <div class="aftercare-pic background-pic"></div>
+      </div>
+    </div>
+
+    <!-- shop -->
+    <div id="shop">
+      <div class="container">
+        <div class="row col"></div>
+      </div>
+    </div>
+    <!-- gallery -->
+    <div id="gallery" class="">
+      <div>
+        <h1 class="headers emphasized bold">Gallery</h1>
+      </div>
+
+      <div class="">
+        <div class="gallery-gif background-pic"></div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="container" id="footdiv">
+      <div class="row main">
+        <div class="col-12 col-md-4">
+          <h3 class="bold headers">CONTACT</h3>
+          <p>4932 Prytania St. Ste G</p>
+          <p>New Orleans, LA 70115</p>
+          <p class="contacts foot-extra-space">contact@thelashbookings.com</p>
+        </div>
+
+        <div class="col-12 col-md-4 headers">
+          <h2 class="bold">LASH</h2>
+          <form action="">
+            <input
+              type="text"
+              id="email"
+              placeholder="Email Address"
+              value=""
+              class="esignup"
+            />
+          </form>
+          <button
+            type="button"
+            class="btn btn-outline-dark esignup headers center-btn"
+          >
+            Sign Up
+          </button>
+          <p class="foot-extra-space">
+            Sign up for discounts and updated office hours.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h3 class="headers bold">HOURS</h3>
+          <p class="foot-extra-space">Appointment only</p>
+        </div>
+        <div class="col-12" id="">
+          <a href="https:\/\/thelashbookings.simplybook.me" class="appointment">
+            Book An Appointment
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
