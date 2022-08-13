@@ -131,6 +131,7 @@ footer {
   display: block;
   color: aliceblue;
   margin-bottom: 3em;
+  text-align: center;
 }
 @media (min-width: 768px) {
   footer {
