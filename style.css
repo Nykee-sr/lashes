@@ -39,7 +39,7 @@ a:active {
   text-align: center;
 }
 .aftercare-pic {
-  background-image: url('aftercare.png');
+  background-image: url('images/aftercare.png');
 }
 .background-pic {
   height: 475px;
@@ -154,7 +154,7 @@ footer p {
   display: none;
 }
 .gallery-gif {
-  background-image: url('gallery.gif');
+  background-image: url('images/gallery.gif');
 }
 #head {
   max-width: 100%;
@@ -164,7 +164,7 @@ footer p {
   background-color: transparent;
 }
 .head-pic {
-  background-image: url('finishedlogo.png');
+  background-image: url('images/finishedlogo.png');
   min-height: 650px;
   background-attachment: fixed;
   background-position: center;
@@ -325,13 +325,13 @@ li {
   }
 }
 .servicepic-classic {
-  background-image: url('gallery7.jpg');
+  background-image: url('images/gallery7.jpg');
 }
 .servicepic-volume {
-  background-image: url('volume.jpg');
+  background-image: url('images/volume.jpg');
 }
 .servicepic-wispyhybrid {
-  background-image: url('wispyhybrid.jpg');
+  background-image: url('images/wispyhybrid.jpg');
 }
 #shop {
   display: none;
