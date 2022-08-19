@@ -39,7 +39,7 @@ a:active {
   text-align: center;
 }
 .aftercare-pic {
-  background-image: url('images/aftercare.png');
+  background-image: url('images/aftercare\ edit.png');
 }
 .background-pic {
   height: 475px;
@@ -336,6 +336,77 @@ li {
 #shop {
   display: none;
 }
+.shop {
+}
+.shop-pic {
+  background-image: url('images/shop.png');
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0.5em;
+  border-radius: 1em;
+}
+@media (min-width: 576px) {
+  .shop {
+    margin-right: 1em;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .shop-pic {
+    height: 650px;
+    background-size: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .shop-pic {
+    height: 650px;
+    background-size: 70%;
+  }
+}
+#shop a {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 48px;
+  height: 48px;
+  color: #ffffff;
+  min-width: 212px;
+  background-color: #a67c53;
+  text-align: center;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 0px;
+}
+#shop p {
+  font-size: 18px;
+  line-height: 20px;
+}
+.shop-buy-btn {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 259px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+  height: 275px;
+  margin-top: 0.5em;
+}
+@media (min-width: 576px) {
+  .shop-buy-btn {
+    margin-top: 3.5em;
+    margin-left: 1em;
+  }
+}
+@media (min-width: 991.98px) {
+  .shop-buy-btn {
+    margin-top: 6em;
+  }
+}
 .section-top {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -345,4 +416,23 @@ li {
   font-size: 1.7em;
   float: left;
   font-weight: bold;
+}
+
+/* shop */
+
+#shop a {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 48px;
+  height: 48px;
+  color: #ffffff;
+  min-width: 212px;
+  background-color: #a67c53;
+  text-align: center;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 0px;
+}
+#shop p {
+  font-size: 18px;
+  line-height: 20px;
 }
