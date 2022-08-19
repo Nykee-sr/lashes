@@ -335,6 +335,7 @@ li {
 }
 #shop {
   display: none;
+  float: none;
 }
 .shop {
 }
@@ -343,8 +344,9 @@ li {
   min-height: 400px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  margin: 0.5em;
+  background-size: 80%;
+  max-width: 100%;
+  margin: auto;
   border-radius: 1em;
 }
 @media (min-width: 576px) {
@@ -394,7 +396,7 @@ li {
   border-radius: 10px;
   font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
   height: 275px;
-  margin-top: 0.5em;
+  margin: auto;
 }
 @media (min-width: 576px) {
   .shop-buy-btn {
