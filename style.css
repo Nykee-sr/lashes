@@ -350,6 +350,11 @@ li {
   margin: auto;
   border-radius: 1em;
 }
+@media (min-width: 485px) {
+  .shop-pic {
+    max-width: 80%;
+  }
+}
 @media (min-width: 576px) {
   .shop-pic {
     background-size: 100%;
