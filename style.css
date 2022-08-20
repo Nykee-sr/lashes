@@ -338,23 +338,23 @@ li {
   float: none;
 }
 .shop {
+  margin-bottom: 3em;
 }
 .shop-pic {
   background-image: url('images/shop.png');
   min-height: 400px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 75%;
   max-width: 100%;
   margin: auto;
   border-radius: 1em;
 }
 @media (min-width: 576px) {
-  .shop {
-    margin-right: 1em;
+  .shop-pic {
+    background-size: 100%;
   }
 }
-
 @media (min-width: 991.98px) {
   .shop-pic {
     height: 650px;
@@ -400,8 +400,7 @@ li {
 }
 @media (min-width: 576px) {
   .shop-buy-btn {
-    margin-top: 3.5em;
-    margin-left: 1em;
+    margin: auto;
   }
 }
 @media (min-width: 991.98px) {
