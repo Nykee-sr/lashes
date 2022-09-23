@@ -172,6 +172,17 @@ footer p {
   background-size: 165%;
   max-width: 100%;
 }
+@media (max-width: 576px) {
+  .head-pic {
+    background-attachment: scroll;
+  }
+}
+@media (orientation: landscape) {
+  .head-pic {
+    background-attachment: scroll;
+  }
+}
+
 @media (min-width: 576px) {
   .head-pic {
     background-size: 110%;
@@ -312,6 +323,16 @@ li {
   max-width: 100%;
   margin-left: 1em;
   margin-right: 1em;
+}
+@media (max-width: 576px) {
+  .service {
+    background-attachment: scroll;
+  }
+}
+@media (orientation: landscape) {
+  .service {
+    background-attachment: scroll;
+  }
 }
 @media (min-width: 768px) {
   .service {
