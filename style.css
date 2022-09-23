@@ -174,12 +174,12 @@ footer p {
 }
 @media (max-width: 576px) {
   .head-pic {
-    background-attachment: fixed;
+    background-attachment: local;
   }
 }
 @media (orientation: landscape) {
   .head-pic {
-    background-attachment: fixed;
+    background-attachment: local;
   }
 }
 
