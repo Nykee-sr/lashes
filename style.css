@@ -172,16 +172,16 @@ footer p {
   background-size: 165%;
   max-width: 100%;
 }
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
   .head-pic {
-    background-attachment: local;
+    background-attachment: fixed;
   }
 }
 @media (orientation: landscape) {
   .head-pic {
-    background-attachment: local;
+    background-attachment: fixed;
   }
-} */
+}
 
 @media (min-width: 576px) {
   .head-pic {
