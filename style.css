@@ -174,12 +174,12 @@ footer p {
 }
 @media (max-width: 576px) {
   .head-pic {
-    background-attachment: scroll;
+    background-attachment: local;
   }
 }
 @media (orientation: landscape) {
   .head-pic {
-    background-attachment: scroll;
+    background-attachment: local;
   }
 }
 
@@ -326,12 +326,12 @@ li {
 }
 @media (max-width: 576px) {
   .service {
-    background-attachment: scroll;
+    background-attachment: local;
   }
 }
 @media (orientation: landscape) {
   .service {
-    background-attachment: scroll;
+    background-attachment: local;
   }
 }
 @media (min-width: 768px) {
