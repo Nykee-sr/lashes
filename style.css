@@ -172,7 +172,7 @@ footer p {
   background-size: 165%;
   max-width: 100%;
 }
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .head-pic {
     background-attachment: local;
   }
@@ -181,7 +181,7 @@ footer p {
   .head-pic {
     background-attachment: local;
   }
-}
+} */
 
 @media (min-width: 576px) {
   .head-pic {
@@ -324,7 +324,7 @@ li {
   margin-left: 1em;
   margin-right: 1em;
 }
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .service {
     background-attachment: local;
   }
@@ -333,7 +333,7 @@ li {
   .service {
     background-attachment: local;
   }
-}
+} */
 @media (min-width: 768px) {
   .service {
     height: 550px;
