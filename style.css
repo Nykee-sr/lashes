@@ -333,11 +333,11 @@ li {
     background-attachment: fixed;
   }
 }
-/* @media (orientation: landscape) {
+@media (orientation: landscape) {
   .service {
     background-attachment: local;
   }
-} */
+}
 @media (min-width: 768px) {
   .service {
     height: 550px;
