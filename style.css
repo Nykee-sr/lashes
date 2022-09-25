@@ -316,6 +316,8 @@ li {
 }
 .service {
   height: 400px;
+  background-position: center;
+
   background-repeat: no-repeat;
   background-size: 80%;
   max-width: 100%;
@@ -324,20 +326,18 @@ li {
 }
 @media (max-width: 576px) {
   .service {
-    background-attachment: local;
   }
 }
 @media (min-width: 576px) {
   .service {
     background-attachment: fixed;
-    background-position: center;
   }
 }
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
   .service {
     background-attachment: local;
   }
-}
+} */
 @media (min-width: 768px) {
   .service {
     height: 550px;
