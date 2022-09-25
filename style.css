@@ -316,24 +316,28 @@ li {
 }
 .service {
   height: 400px;
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: 80%;
   max-width: 100%;
   margin-left: 1em;
   margin-right: 1em;
 }
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
   .service {
     background-attachment: local;
+  }
+}
+@media (min-width: 576px) {
+  .service {
+    background-attachment: fixed;
+    background-position: center;
   }
 }
 @media (orientation: landscape) {
   .service {
     background-attachment: local;
   }
-} */
+}
 @media (min-width: 768px) {
   .service {
     height: 550px;
@@ -350,6 +354,10 @@ li {
 }
 .servicepic-volume {
   background-image: url('images/volume.jpg');
+}
+@media (max-width: 576px) {
+  .servicepic-volume {
+  }
 }
 .servicepic-wispyhybrid {
   background-image: url('images/wispyhybrid.jpg');
